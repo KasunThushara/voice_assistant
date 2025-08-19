@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+vosk
+pyttsx3
+ollama
+numpy
