@@ -1,0 +1,48 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# PyCharm / IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Model files (like vosk)
+vosk-model-*/
+*.onnx
+*.pt
+*.bin
+
+# Audio outputs
+*.wav
+*.mp3
+
+# Docker stuff
+*.pid
+*.sock
+*.db
+*.tar
+*.bak
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
