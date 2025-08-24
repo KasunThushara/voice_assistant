@@ -1,6 +1,10 @@
 fastapi
 uvicorn
-vosk
 pyttsx3
 ollama
 numpy
+python-multipart
+requests
+websocket-client
+
+

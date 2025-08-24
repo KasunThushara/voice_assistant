@@ -8,9 +8,11 @@ services:
     depends_on:
       - vosk
       - ollama
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
 
   vosk:
-    image: alphacep/kaldi-vosk-server
+    image: alphacep/kaldi-en:latest
     ports:
       - "2700:2700"
 
