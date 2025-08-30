@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   api:
-    image: your-dockerhub-username/voice-assistant-api:latest
+    image: kasun594/voice-assistant-api:latest
     ports:
       - "8000:8000"
     depends_on:
